@@ -1,8 +1,8 @@
-import React, { component } from 'react';
-import {FaCocktail, FaHiking, FaShuttleVan, FaBeer} from 'react-icons/fa';
+import React from 'react';
+import {FaCocktail, FaHiking, FaShuttleVan, FaBeer} from "react-icons/fa";
 import Title from './Title';
 
-export default class Services extends Component{
+export default class Services extends React.Component{
   state={
     services: [
       {

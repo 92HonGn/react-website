@@ -1,16 +1,16 @@
-import React, { component } from "react";
+import React from "react";
 import defaultBcg from '../images/room-1.jpeg';
-import Hero from '../components/Hero';
+// import Hero from '../components/Hero';
 import Banner from '../components/Banner';
 import { Link } from 'react-router-dom';
 import { RoomContext }  from '../context';
 import StyledHero from '../components/StyledHero';
 
-export default class SingleRoom extends Component{
+export default class SingleRoom extends React.Component{
     constructor(props){
         super(props)
         // console.log(this.props);
-        thos.state = {
+        this.state = {
             slug: this.props.match.params.slug,
             defaultBcg
         }
@@ -22,7 +22,7 @@ export default class SingleRoom extends Component{
     // }
     render() {
         const { getRoom } = this.context;
-        const romm = getRoom(this.state.slug);
+        const room = getRoom(this.state.slug);
         console.log(room);
         if(!room){
             return (
@@ -50,7 +50,7 @@ export default class SingleRoom extends Component{
                     <div className="single-room-images">
                         {defaultImg.map((item, index)=>{
                             return (
-                                <img key={index} src={item} alr={name}/>
+                                <img key={index} src={item} alt={name}/>
                             );
                         })}
                     </div>
