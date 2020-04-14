@@ -10,9 +10,9 @@ export default function Home() {
     return (
         <>
             <Hero>
-                <Banner title="luxurious rooms" subtitle="deluxe rooms starting at $299">
+                <Banner title="日本旅館" subtitle="各式各樣的旅館種類">
                     <Link to="/rooms" className="btn-primary">
-                        our rooms
+                        我們的旅館
                     </Link>
                 </Banner>
             </Hero>

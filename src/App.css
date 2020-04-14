@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 :root {
-  --primaryColor: #af9a7d;
+  --primaryColor: rgb(0, 157, 255);
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
   --mainBlack: #222;
@@ -101,6 +101,18 @@ h6 {
   display: flex;
   justify-content: space-between;
 }
+.nav-logo{
+  display:inline-block;
+  text-decoration: none;
+  border: 3px solid rgb(0, 157, 255);
+  padding: 5px;
+}
+.nav-logo h1{
+  padding: 0;
+  margin: 0;
+  font-size: 32px;
+  color:rgba(0, 81, 255, 0.906);
+}
 .nav-btn {
   background: transparent;
   border: none;
@@ -151,7 +163,7 @@ h6 {
   }
   .nav-links a {
     margin: 0 1rem;
-    padding: 0.5rem 0;
+    /* padding: 0.5rem 0; */
   }
 }
 /* end of navbar */
@@ -159,7 +171,7 @@ h6 {
 .defaultHero,
 .roomsHero {
   min-height: calc(100vh - 66px);
-  background: url("./images/defaultBcg.jpeg") center/cover no-repeat;
+  background: url("https://www.the-frequent-traveler.com.tw/wp-content/uploads/2019/09/img_main06-pc.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
