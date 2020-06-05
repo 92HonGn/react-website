@@ -8,7 +8,6 @@ export default function Banner({children, title, subtitle}){
         { title }
       </h1>
       <div>
-
       </div>
       <p>
         { subtitle }
