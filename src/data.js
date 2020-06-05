@@ -21,7 +21,7 @@ export default [
       id: "1"
     },
     fields: {
-      name: "single economy",
+      name: "單人經濟",
       slug: "single-economy",
       type: "single",
       price: 100,
@@ -78,7 +78,7 @@ export default [
       id: "2"
     },
     fields: {
-      name: "single basic",
+      name: "基本單人",
       slug: "single-basic",
       type: "single",
       price: 150,
@@ -135,7 +135,7 @@ export default [
       id: "3"
     },
     fields: {
-      name: "single standard",
+      name: "單人標準",
       slug: "single-standard",
       type: "single",
       price: 250,
@@ -192,7 +192,7 @@ export default [
       id: "4"
     },
     fields: {
-      name: "single deluxe",
+      name: "單人豪華",
       slug: "single-deluxe",
       type: "single",
       price: 300,
@@ -249,7 +249,7 @@ export default [
       id: "5"
     },
     fields: {
-      name: "double economy",
+      name: "雙人經濟",
       slug: "double-economy",
       type: "double",
       price: 200,
@@ -306,7 +306,7 @@ export default [
       id: "6"
     },
     fields: {
-      name: "double basic",
+      name: "雙人基本",
       slug: "double-basic",
       type: "double",
       price: 250,
@@ -363,7 +363,7 @@ export default [
       id: "7"
     },
     fields: {
-      name: "double standard",
+      name: "雙人標準",
       slug: "double-standard",
       type: "double",
       price: 300,
@@ -420,7 +420,7 @@ export default [
       id: "8"
     },
     fields: {
-      name: "double deluxe",
+      name: "雙人豪華",
       slug: "double-deluxe",
       type: "double",
       price: 400,
@@ -477,7 +477,7 @@ export default [
       id: "9"
     },
     fields: {
-      name: "family economy",
+      name: "家庭經濟",
       slug: "family-economy",
       type: "family",
       price: 300,
@@ -534,7 +534,7 @@ export default [
       id: "10"
     },
     fields: {
-      name: "family basic",
+      name: "家庭基本",
       slug: "family-basic",
       type: "family",
       price: 350,
@@ -591,7 +591,7 @@ export default [
       id: "11"
     },
     fields: {
-      name: "family standard",
+      name: "家庭標準",
       slug: "family-standard",
       type: "family",
       price: 400,
@@ -648,7 +648,7 @@ export default [
       id: "12"
     },
     fields: {
-      name: "family deluxe",
+      name: "家庭豪華",
       slug: "family-deluxe",
       type: "family",
       price: 500,
@@ -705,7 +705,7 @@ export default [
       id: "13"
     },
     fields: {
-      name: "presidential",
+      name: "總統套房",
       slug: "presidential-room",
       type: "presidential",
       price: 600,
